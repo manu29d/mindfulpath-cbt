@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ThoughtRecord, Mood, AIAnalysisResult } from '../types';
 import { analyzeThoughtWithGemini } from '../services/geminiService';
 import { MOOD_LABELS, COMMON_DISTORTIONS } from '../constants';
-import { Loader2, Sparkles, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Loader2, Sparkles, CheckCircle2 } from 'lucide-react';
 
 interface Props {
   onSave: (record: ThoughtRecord) => void;

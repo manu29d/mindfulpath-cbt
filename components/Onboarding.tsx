@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, ArrowRight, CheckCircle2, BrainCircuit } from 'lucide-react';
+import { ArrowRight, CheckCircle2, BrainCircuit } from 'lucide-react';
 import { Mood } from '../types';
 import { MOOD_LABELS, MOOD_COLORS } from '../constants';
 

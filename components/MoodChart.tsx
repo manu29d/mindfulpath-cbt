@@ -8,7 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer
 } from 'recharts';
-import { ThoughtRecord, Mood } from '../types';
+import { ThoughtRecord } from '../types';
 
 interface MoodChartProps {
   data: ThoughtRecord[];
