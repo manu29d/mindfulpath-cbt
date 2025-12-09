@@ -1,0 +1,5 @@
+{
+  "name": "MindfulPath CBT",
+  "description": "A CBT-focused mood journal and thought record application powered by Gemini to help users identify cognitive distortions and track emotional well-being.",
+  "requestFramePermissions": []
+}
