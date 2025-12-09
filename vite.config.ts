@@ -11,5 +11,18 @@ export default defineConfig(({ mode }) => {
       'process.env.API_KEY': JSON.stringify(env.VITE_API_KEY || process.env.API_KEY),
     },
     base: '', // Handles relative paths for GH Pages
+    build: {
+      chunkSizeWarningLimit: 1000, // Suppress warning for initial load (recharts + gemini are large)
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            // Separate vendor chunks for better caching and parallel loading
+            'vendor-react': ['react', 'react-dom'],
+            'vendor-charts': ['recharts'],
+            'vendor-gemini': ['@google/genai'],
+          },
+        },
+      },
+    },
   };
 });
