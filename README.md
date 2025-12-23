@@ -2,6 +2,9 @@
 
 MindfulPath is a mood journaling and cognitive behavioral therapy (CBT) application designed to help users identify cognitive distortions and track their emotional well-being. It is powered by the Gemini API to provide intelligent insights and balanced perspectives on negative thoughts.
 
+<img width="1729" height="1297" alt="image" src="https://github.com/user-attachments/assets/8d818e6c-de38-4aaa-b75d-ebe79bcdd3d1" />
+
+
 ## Features
 
 - **Mood Tracking**: Log your daily mood and intensity.
